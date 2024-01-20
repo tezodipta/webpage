@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.black {
+    background-color: #040003;
+    color: white;
+    width: 100vw;
+
+}
+
+.mainnav {
+    background-color: #353c45;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.mainnav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+.name {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.namemain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: #040003a7;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+.phname{
+    width: 50%;
+    /* background-color: hotpink; */
+}
+.phname h2{
+    padding-left: 25%;
+}
+.nameside{
+    width: 50%;
+    /* background-color: #eb17fa; */
+}
+.nameside ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap:10%;
+    font-size: 15px;
+    padding-right: 25%;
+}
+.nameside ul li:first-child{
+    color: gray;
+}
+.preo{
+    border: 1px solid rgb(88, 88, 227);
+    border-radius: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(88,88, 227);
+}
+
+
+
+.img1st {
+    width: 100vw;
+
+}
+
+.para1st {
+    width: auto;
+    height: 100vh;
+    text-align: left;
+    border: 0px;
+}
+
+.bottom {
+    border: 1px solid gray;
+    width: 100%;
+    color: gray;
+
+}
+
+.magic {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    font-size: 70px;
+    color: rgb(249, 138, 249);
+}
+
+.proback {
+    background-image: linear-gradient(180deg, #eb17fa, rgb(211, 174, 231));
+    height: 80vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    color: #040003;
+}
+
+.pro h1 {
+    font-size: 1500%;
+}
+
+.proback h3 {
+    font-size: 30px;
+    padding: 3% 0% 3%;
+}
+
+.prop {
+    font-size: 30px;
+}
+
+.fe {
+    padding-top: 5%;
+    display: flex;
+    justify-content: left;
+    gap: 10%;
+    font-size: 30px;
+}
+
+.black2 {
+    background-color: #040003;
+    padding-top: 5%;
+    color: white;
+}
+
+.sidebox {
+    height: 110vh;
+    display: flex;
+
+}
+
+.sbox {
+    width: 33.33vw;
+}
+
+.sbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sbox3 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15%;
+
+}
+
+.sbox3 ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: left;
+    color: white;
+    list-style: none;
+}
+.sbox3 ul li{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: gray;
+}
+.sbox3 ul li:first-child{
+    color: white;
+}
+
+.desi {
+
+    width: 100vw;
+    font-size: 35px;
+}
+
+.desi p {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.line {
+    padding: 10% 10%;
+}
+
+.linebox {
+    display: flex;
+}
+
+.linebox div {
+    width: 50%;
+    height: auto;
+    padding: 3%;
+
+}
+
+.linecon p{
+    padding-left: 20%;
+    font-size: 25px;
+}
+.logolock{
+    display: flex;
+    justify-content: space-between;
+}
+.logolock img{
+    height: 60px;
+}
+
+.meet {
+    width: 100vw;
+    /* align-items: start; */
+    /* padding: 5%; */
+}
+
+.meetpara {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 50%;
+    font-size: 200px;
+}
+.meetpara2{
+    padding-left: 5%;
+    width: 50%;
+    font-size: 200px;
+    padding-bottom: 5%;
+}
+.meetpara2 img{
+    height: 100px;
+    width: 200px;
+}
+
+.island {
+    width: 100vw;
+}
+
+.iscon {
+    padding-left: 35%;
+    padding-right: 35%;
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.islandimg {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.arcon {
+    padding: 2%;
+    width: 15%;
+    font-size: 25px;
+    text-align: end;
+
+}
+
+.airpad {
+    padding-right: 5%;
+}
+
+.arbut {
+    border: 1px solid;
+    width: 85px;
+    /* padding: 2%; */
+    height: 85px;
+    background-color: rgb(204, 59, 204);
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    border-radius: 777px;
+}
+.arbut img{
+    width: 50%;
+}
+
+.alon {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.alon p {
+
+    font-size: 100px;
+
+}
+
+.albat {
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    width: 100vw;
+}
+
+.img4 {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.batcon {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: left;
+}
+
+.bt1 {
+    padding-top: 2%;
+    width: 60%;
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+
+.bt2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 60%;
+    font-size: 50px;
+    color: gray;
+}
+
+.bt3 {
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 50px;
+    color: #e74bf2;
+}
+
+.bt4 {
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+
+}
+.yphoto{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.con55{
+    /* padding-top: 2%; */
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* padding-left: 20%; */
+    padding-top: 2%;
+    
+}
+.yp{
+    padding-left: 20%;
+    padding-right: 7%;
+}
+.con55 h1{
+    
+    font-size: 100px;
+}
+.con55 p{
+    padding-left: 20%;
+    padding-right: 7%;
+    padding-top: 2%;
+    font-size: 35px;
+    width: 70%;
+}
+.con45{
+    /* padding-top: 2%; */
+    width: 45%;
+}
+.con45 img{
+    width: 100%;
+}
+.line3{
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.line3 p{
+    padding: 2%;
+    font-size: 25px;
+    width: 40%;
+}
+.bri{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bripara{
+    height: 40%;
+    width: 40%;
+    padding-top: 4%;
+}
+.bri1{
+    font-size: 40px;
+}
+.brih{
+    font-size: 200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: rgb(247, 216, 41);
+}
+.bripara2{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.bripara2 img{
+    height: 100%;
+}
+.backimg1{
+    background-image: url("Assets/7.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    font-size: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.backimg1 p{
+    padding-left: 20%;
+}
+.sos{
+    height: 35vh;
+    padding-top: 4%;
+    padding-left: 10%;
+
+}
+.nov{
+    border: 1px solid gray;
+    border-radius: 22px;
+    display: inline;
+    padding: 5px;
+    color: gray;
+    font-size: 25px;
+}
+.nov span{
+    padding: 2%;
+}
+.sos1{
+    font-size: 100px;
+    padding-top: 2%;
+
+}
+.sos2{
+    font-size: 100px;
+    padding-bottom: 2%;
+
+}
+.img7{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.img7 img{
+    width: 80%;
+
+}
+.peace{
+    width: 100vw;
+    height: 100vh;
+}
+.peacebox{
+    height: 65%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.peace1{
+    font-size: 110px;
+    padding-top: 5%;
+    padding-left: 15%;
+    width: 40%;
+
+}
+.peace2{
+    width: 40%;
+    padding-left: 15%;
+    padding-top: 2%;
+    font-size: 42px;    
+}
+.crash{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+.crash45{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+
+}
+.crash55{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.crashp1{
+    font-size: 110px;
+    width: 55%;
+}
+.crashp2{
+    padding-top: 2%;
+    width: 60%;
+    font-size: 40px;
+}
+.crash45 img{
+    padding-right: 10%;
+}
